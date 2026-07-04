@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+/* Navbar */
+
+.navbar{
+    background:rgb(100, 76, 51);
+    color:white;
+    padding:20px;
+}
+
+/* Carousel */
+
+.carousel{
+    margin:30px auto;
+}
+
+.carousel img{
+    width:80%;
+    max-width:600px;
+    border-radius:10px;
+}
+
+.buttons{
+    margin-top:15px;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkblue;
+}
+
+/* Joke Section */
+
+.joke-container{
+    background:white;
+    width:80%;
+    max-width:600px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+    .carousel img{
+        width:95%;
+    }
+
+    .joke-container{
+        width:95%;
+    }
+
+    h2{
+        font-size:22px;
+    }
+
+    p{
+        font-size:16px;
+    }
+}

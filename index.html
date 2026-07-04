@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+        <h2>Task 3 Project</h2>
+    </nav>
+
+
+    <!-- Image Carousel -->
+
+    <div class="carousel">
+
+        <img id="carouselImage"
+        src="https://picsum.photos/id/1015/600/300"
+        alt="Carousel Image">
+
+        <div class="buttons">
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+
+    </div>
+
+
+    <!-- Joke API Section -->
+
+    <div class="joke-container">
+
+        <h2>Random Joke Generator</h2>
+
+        <p id="joke">Click the button to get a joke!</p>
+
+        <button onclick="getJoke()">Get Joke</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
